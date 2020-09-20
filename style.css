@@ -1,0 +1,60 @@
+body, html {
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./country_flags_bg.png");
+    background-size: cover;
+}
+
+#country-picker-container {
+    margin-top: 10%;
+    text-align: center;
+    height: 90px;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+#country-picker-label {
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    border: white 5px solid;
+}
+
+#country-picker {
+    height: 50px;
+    font-size: 2rem;
+    width: 27%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+#country-details-container {
+    background-color: black;
+    border-radius: 20px;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border: white 5px solid;
+    color: white;
+    font-size: 2rem;
+}
+
+#flag {
+    width: 300px;
+    margin-top: 10px;
+    border: white solid 2px;
+}
+
+p {
+    margin: 5px;
+}
+
+a {
+    color: rgb(44, 44, 204);
+}

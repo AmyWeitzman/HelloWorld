@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="country-picker-container">
+            <label for="country-picker" id="country-picker-label">Hello</label>
+            <select name="country-picker" id="country-picker" onchange="getCountryInfo()">
+                <option value="none" selected disabled>Choose a country...</option>
+            </select>
+        </div>
+        <div id="country-details-container">
+            <img id="flag"/>
+            <p id="name"></p>
+            <p id="capital"></p>
+            <p id="population"></p>
+            <p id="area"></p>
+            <a id="map-link" target="_blank"></a>
+        </div>
+    </body>
+</html>
